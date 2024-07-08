@@ -4,7 +4,7 @@ import { pino } from "pino";
 import cors from "cors";
 import { env } from "./envConfig";
 
-import { apiRouter } from "@/api/next/apiRouter";
+import { apiRouter } from "@/next/api/apiRouter";
 
 const logger = pino({ name: "server start" });
 const app: Express = express();

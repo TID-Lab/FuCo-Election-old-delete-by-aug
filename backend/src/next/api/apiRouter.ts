@@ -1,4 +1,5 @@
-import express, { type Request, type Response, type Router } from "express";
+import express from "express";
+import type { Request, Response, Router } from "express";
 
 export const apiRouter: Router = (() => {
 	const router = express.Router();
